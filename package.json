@@ -1,0 +1,16 @@
+{
+  "name": "netlibug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "netlify dev"
+  },
+  "keywords": [],
+  "author": "Kam Figy",
+  "license": "ISC",
+  "dependencies": {
+    "@netlify/functions": "^0.7.0",
+    "netlify-cli": "^3.21.0"
+  }
+}

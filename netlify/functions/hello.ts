@@ -1,0 +1,11 @@
+import { Handler } from "@netlify/functions";
+import { hello } from "../../ref";
+
+const handler: Handler = async (event, context) => {
+  return {
+    statusCode: 200,
+    body: JSON.stringify({ message: hello() }),
+  };
+};
+
+export { handler };
